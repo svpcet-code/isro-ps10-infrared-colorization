@@ -1,0 +1,34 @@
+﻿# Large directories
+checkpoints/
+results/
+kaist_pix2pix/
+pytorch-CycleGAN-and-pix2pix/
+Infrared-Image-Colorization/
+SoonminHwang-rgbt-ped-detection-f238a61/
+
+# Data files
+*.jpg
+*.jpeg
+*.png
+*.pth
+*.pkl
+*.pckl
+
+# IDE
+.vscode/
+.idea/
+*.pyc
+__pycache__/
+
+# Python
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+.gitignore_local
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
