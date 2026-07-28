@@ -1,18 +1,32 @@
-﻿# Large directories
+﻿# Large/Generated directories
 checkpoints/
 results/
 kaist_pix2pix/
-pytorch-CycleGAN-and-pix2pix/
-Infrared-Image-Colorization/
 SoonminHwang-rgbt-ped-detection-f238a61/
+
+# Model weights and data files
+*.pth
+*.pkl
+*.pckl
 
 # Data files
 *.jpg
 *.jpeg
 *.png
-*.pth
-*.pkl
-*.pckl
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+.gitignore_local
 
 # IDE
 .vscode/
